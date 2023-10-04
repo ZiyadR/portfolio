@@ -9,7 +9,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="bg-base-100 w-full">
+    <header className=" bg-yellow-50 w-full  p-4">
       <div className="navbar container mx-auto">
         <div className="flex-1">
           <Link className="text-2xl font-semibold text-orange-500 hover:text-orange-600" href={"/"}>HADIL MIARI</Link>

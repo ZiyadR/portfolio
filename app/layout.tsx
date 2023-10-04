@@ -17,15 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-    <body
-      className={`${inter.className} text-gray-950 relative pt-4`}
-    >
-          <Header />
-            <div className="container mx-auto py-10 min-h-[80vh]">
-              {children}
-            </div>
-          <Footer />
-    </body>
-  </html>
+      <body
+        className={`${inter.className} text-gray-950 relative`}
+      >
+        <Header />
+        {children}
+        <Footer />
+      </body>
+    </html>
   )
 }
